@@ -14,8 +14,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       
-      - name: Docker Setup QUEMU
-        uses: docker/setup-quemu-action@v2.0.0
+      - name: Docker Setup QEMU
+        uses: docker/setup-qemu-action@v2.0.0
 
       - name: Buildx set-up
         id: buildx
